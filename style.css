@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Micro+5&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #868e96;
+  font-family: "Micro 5", sans-serif;
+  font-size: 28px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 40px;
+  text-align: center;
+  border-bottom: #f1f3f5 solid 4px;
+}
+
+main {
+  display: flex;
+  flex: 1;
+}
+
+.data-part {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 24px 16px;
+  gap: 8px;
+}
+
+button {
+  width: 100px;
+  margin-top: 12px;
+  background-color: #fa5252;
+  border: none;
+  padding: 4px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.playing-part {
+  flex: 1;
+  border-left: #f1f3f5 solid 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-container {
+  width: 500px;
+  height: 500px;
+  border: #212529 solid 1px;
+  display: flex;
+  flex-wrap: wrap;
+}
